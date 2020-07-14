@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1 class="nom">Nombre</h1>
+  		<div class="hamburger">
+  			<div class="hamburger-inner">
+  				<ul class="nav1">
+  				<li><a href="index.html">Inicio</a></li>
+  				<li><a href="notas.html">Notas</a></li>
+  				<li><a href="tabla.html">Tabla De Notas</a></li>
+  			</ul></div>
+  		</div>
+  		<script>
+  		$('.hamburger').click(function () {
+  			$('.hamburger').toggleClass('open');
+  		});
+  		</script>
+    </header>
+    <aside class="a1">
+      <h1>Misión</h1>
+      <p>La Institución Educativa Distrital Comunitaria los Laureles del departamento del Atlantico, ofrece los servicio en preescolar,
+básica primaria, secundaria y, busca formar personas íntegras con identidad hacia su
+territorio, con el ánimo de promoverse como individuos y sujetos sociales.</p>
+    </aside> <br>
+    <aside class="a2">
+      <h1>Visión</h1>
+      <p>El Colegio Los Laureles destaca por ser una Institución Educativa reconocida por: Formar alumnos autónomos, competentes, plurilingües, creativos, resolutivos; con un alto desarrollo de sus habilidades sociales, artísticas y deportivas, con espíritu crítico y cultura del esfuerzo en un contexto de innovación educativa.
+Formar personas íntegras, tolerantes, respetuosas y comprometidas. Alumnos felices y ciudadanos responsables. Contar con un profesorado identificado y comprometido con el proyecto educativo de la institución, en permanente desarrollo de su talento y búsqueda de la excelencia. Lograr que las familias confíen, colaboren y se comprometan con el proceso educativo de sus hijos.</p>
+    </aside>
+    <article class="b">
+      <h1>Login</h1> <br>
+      <h3>Inciar sección</h3> <br>
+      <a href="registro/log.html" id="ingreso">INGRESAR</a>
+    </article>
+    <footer>
+      <p id="p">Contactanos</p>
+      <p id="p">Correo: <a href="#">loslaureles@sedbarranquilla.gov.co</a></p>
+      <p id="p">Telefono: 3661100</p>
+      <p id="p">Dirección: CLL. 37C #1H - 10, Atlantico, Barraquilla</p>
+    </footer>
+  </body>
+</html>

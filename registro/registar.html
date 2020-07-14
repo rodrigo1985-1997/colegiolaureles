@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+	<form class="registro">
+
+		<h1>Registrate</h1>
+		<div class="contenedor">
+				
+				<label>Primer Nombre:</label>
+				<input type="text" placeholder="Primer Nombre" required pattern="[A-Za-z]+">
+				<br>
+				<br>
+				<label>Segundo Nombre:</label>
+				<input type="text" placeholder="Segundo Nombre" required pattern="[A-Za-z]+">
+				<br>
+				<br>
+				<label>Primer Apellido:</label>
+				<input type="text" placeholder="Primer Apellido" required pattern="[A-Za-z]+">
+				<br>
+				<br>
+				<label>Segundo Apellido:</label>
+				<input type="text" placeholder="Segundo Apellido" required pattern="[A-Za-z]+">
+				<br>
+				<br>
+				<label>Tipo De Documento:</label>
+				<select name="Selecciones">
+			<option value=>Tipo de documento</option>
+			<option value=>Tarjeta de identidad</option>
+			<option value=>Cedula de ciudadania</option>
+			<option value=>Documeto de cuidadano extranjero</option>
+		</select>
+			<input type="number" placeholder="Numero de documento">
+			
+		<br>
+		<br>
+		<br>
+			<label>Correo Electronico:</label>
+			<input type="email" placeholder="Correo Electronico">
+			<br>
+			<br>
+			<label>Contraseña:</label>
+			<input type="password" placeholder="">
+			<br>
+			<br>
+			<label>Confirme Su Contraseña:</label>
+			<input type="password" placeholder="">
+			<br>
+			<br>
+			<label>Numero Telefonico:</label>
+			<input type="number" placeholder="Numero de telefono">
+			<br>
+			<br>
+			<input type="submit" value="Registrar" class="boton">
+			<br>
+			<br>
+			<br>
+			<br>
+			<p>Al darle click en "Registrar", aceptas nuestros Terminos y condiciones.</p>
+			<p id="pa">¿Ya tienes cuenta?<a class="log" href="log.html">Iniciar sesion</a></p>
+		</div>
+	</form>
+</body>
+</html>

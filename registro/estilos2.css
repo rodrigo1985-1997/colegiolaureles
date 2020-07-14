@@ -1,0 +1,89 @@
+body{
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+	background: #03051E;
+	border:none;   
+	background: url(img2/fondo4.jpg)center;
+	background-size: cover;
+}
+*{
+	box-sizing: border-box;
+}
+.contenedor{
+	padding: 15px;	
+}
+.registro{
+	margin:auto;
+	background: white;
+	margin-top: 80px;
+	padding: 3px;
+	border-radius: 10px;
+	width: 500px;
+}
+h1{
+	text-align: center;
+	color:#03051E;
+	font-size: 35px;
+}
+
+.boton{
+	border: 0px solid black;
+	color: white;
+	background: #03051E;
+	padding: 8px 15%;
+    margin-bottom: 15px;
+     font-weight: bold;
+     margin-top: 40px;
+     margin-right: 125px;
+}
+.boton:hover{
+    background: #848484;	
+
+}
+p{
+	text-align: center;
+	color: #626264;
+}
+.log{
+	text-decoration: none;
+	color:#333335;
+	font-weight: 600;
+}
+a{
+	margin-left: 30px;
+}
+#par{
+	margin-right: 50px;
+}
+#un{
+	float: left;
+	margin-top: -12px;
+}
+#do{
+	float: left;
+	margin-top: 66px;
+	margin-left: -50px;
+}
+
+#tre{
+	float: left;
+	margin-top: 70px;
+}
+#pa{
+	margin-left: -40px;
+}
+
+label{
+	font-family: serif;
+	font-size: 20px;
+}
+
+input{
+	float: right;
+	padding: 5px;
+}
+select{
+	float: right;
+	padding: 
+}
